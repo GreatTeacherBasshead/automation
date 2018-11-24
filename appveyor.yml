@@ -1,4 +1,9 @@
 os: WMF 5
 
-build_script:
-  - ps: . .\build.ps1
+install:
+  - cinst pester -y
+
+build_script: false
+
+test_script:
+  - ps: . .\appveyor.pester.ps1
