@@ -1,1 +1,1 @@
-Invoke-Pester -Path Tests -OutputFormat NUnitXml -PassThru
+Invoke-Pester -Path . -OutputFormat NUnitXml -PassThru
