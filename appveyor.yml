@@ -5,6 +5,8 @@ install:
   - refreshenv
 
 #build_script: false
+build_script:
+  - ps: . .\appveyor.build.ps1
 
 test_script:
 #  - ps: . .\appveyor.pester.ps1
