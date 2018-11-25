@@ -4,10 +4,7 @@ install:
   - cinst pester -y
   - refreshenv
 
-#build_script: false
-build_script:
-  - ps: . .\appveyor.build.ps1
+build: false
 
 test_script:
-#  - ps: . .\appveyor.pester.ps1
-  - echo test
+  - ps: . .\appveyor.pester.ps1
