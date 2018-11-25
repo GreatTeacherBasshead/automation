@@ -7,4 +7,4 @@ install:
 build_script: false
 
 test_script:
-  - ps: . .\appveyor.pester.ps1
+  - echo test
