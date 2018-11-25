@@ -1,2 +1,1 @@
-"hereeeeeeeeeee" | write-host
-Invoke-Pester -Path . -OutputFormat NUnitXml -PassThru
+Invoke-Pester -Path . -OutputFormat NUnitXml -OutputFile ".\results.xml" -PassThru
