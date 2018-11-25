@@ -2,7 +2,6 @@ os: WMF 5
 
 install:
   - cinst pester -y
-  - refreshenv
 
 build: false
 
